@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Note from './Note'
+import Phonebook from './Phonebook'
 
 const App = ( props ) => {
   const [notes, setNotes] = useState(props.notes)
@@ -44,6 +45,7 @@ const App = ( props ) => {
           <input value={newNotes} onChange={handleNoteChange}/>
           <button type="submit">save</button>
       </form>
+      <Phonebook />
     </div>
   )
 }
