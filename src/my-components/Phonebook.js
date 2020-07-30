@@ -1,4 +1,7 @@
 import React, { useState } from 'react'
+// import Filter from './Filter'
+// import Addperson from './Addperson'
+// import Numberlist from './Numberlist'
 
 const Phonebook = () => {
   const [ search ,setSearch ] = useState('')
@@ -36,6 +39,7 @@ const Phonebook = () => {
       <div>
         filter shown with <input value={search} onChange={handleSearchChange} />
       </div>
+      {/* <Filter /> */}
       <h3>add a person</h3>
       <form onSubmit={addPerson}>
         <div>
@@ -48,7 +52,9 @@ const Phonebook = () => {
           <button type="submit">add</button>
         </div>
       </form>
+      {/* <Addperson /> */}
       <h2>Numbers</h2>
+      {/* <Numberlist /> */}
       {showPerson.map(person => 
         <p key={person.name}>{person.name} - {person.number}</p>
       )}

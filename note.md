@@ -70,3 +70,13 @@ const App = (props) => {
 ···
 
 ## 不要在组件中定义组件
+
+## hook - useState - useEffect
+- 因此，默认情况下，effect是总是 在组件渲染之后才运行。 然而，在我们的例子中，我们只想在第一次渲染的时候执行这个效果。
+useEffect的第二个参数用于指定effect运行的频率。 如果第二个参数是一个空数组 []，那么这个effect只在组件的第一次渲染时运行。
+
+## 在react中，必须使用 className 属性而不是 class
+
+## 中间件 json-parser 可以使用多个中间件，按顺序执行 
+
+## cors 中间件 允许其他源的请求
