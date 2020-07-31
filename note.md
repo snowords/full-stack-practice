@@ -80,3 +80,25 @@ useEffect的第二个参数用于指定effect运行的频率。 如果第二个�
 ## 中间件 json-parser 可以使用多个中间件，按顺序执行 
 
 ## cors 中间件 允许其他源的请求
+
+## static 中间件 请求时检查是否有前端build 包
+
+## proxy 代理
+- 在重新启动之后，React 开发环境将作为一个代理工作。 如果 React 代码对服务器地址http://localhost:3000发出了一个 HTTP 请求，而不是 React 应用本身管理的地址(即当请求不是为了获取应用的 CSS 或 JavaScript) ，那么该请求将被重定向到 HTTP://localhost:3001 的服务器。
+
+## es module
+- import xxx from 'xxx'
+
+## common js
+- const xxx = require('xxx)
+
+
+[![Version](https://vsmarketplacebadge.apphb.com/version-short/aooiu.z-reader.svg)](https://marketplace.visualstudio.com/items?itemName=aooiu.z-reader) 
+[![Rating](https://vsmarketplacebadge.apphb.com/rating-short/aooiu.z-reader.svg)](https://marketplace.visualstudio.com/items?itemName=aooiu.z-reader) 
+![Installs](https://vsmarketplacebadge.apphb.com/installs-short/aooiu.z-reader.svg)
+
+
+[![stars](https://img.shields.io/github/stars/aooiuu/z-reader)](https://www.baidu.com)
+![forks](https://img.shields.io/github/forks/aooiuu/z-reader) 
+![release](https://img.shields.io/github/release/aooiuu/z-reader) 
+![issues](https://img.shields.io/github/issues/aooiuu/z-reader)
