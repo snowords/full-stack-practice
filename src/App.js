@@ -69,11 +69,13 @@ const App = () => {
 
   const handleLogin = async (event) => {
     event.preventDefault()
+    console.log('用户名 userName ', username)
+    console.log('密码 password ', password)
     try {
       const user = await loginService.login({
         username, password,
       })
-
+      console.log('用户信息 User',user)
       window.localStorage.setItem(
         'loggedNoteappUser', JSON.stringify(user)
       ) 
